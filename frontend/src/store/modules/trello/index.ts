@@ -1,8 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { toast } from "react-toastify";
 
-import { TrelloState, Credentials, CardPosition, StagePosition } from "./types";
-import api from "../../../services/api";
+import { TrelloState, Credentials, CardPosition, StagePosition } from "types";
+import api from "services/api";
 
 const initialState: TrelloState = {
   user: {
