@@ -2,7 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { Row, Col, Card, Form, Button } from "react-bootstrap";
-import { Link, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 import { useAppDispatch } from "store/hooks";
 import { signin } from "store/modules/trello";

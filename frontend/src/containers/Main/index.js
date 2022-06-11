@@ -2,11 +2,9 @@ import Board from "react-trello";
 
 import { useAppSelector, useAppDispatch } from "store/hooks";
 import { changeCard, changeStage } from "store/modules/trello";
-import { RootState } from "store/store";
 
 const Main = () => {
   const dispatch = useAppDispatch();
-  const user = useAppSelector((state) => state.trello.user);
   const workspace = useAppSelector((state) => state.trello.workspace);
 
   const data = {

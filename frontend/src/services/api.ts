@@ -6,7 +6,7 @@ import {
   TrelloResult,
   CardPosition,
   StagePosition,
-} from "../store/modules/trello/types";
+} from "store/modules/trello/types";
 
 const axiosInstance: AxiosInstance = axios.create({
   baseURL: process.env.REACT_APP_SERVER_API_URL,
